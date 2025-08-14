@@ -1,8 +1,8 @@
 # Koleksi Data
-python expert_gesture.py collect --label open_palm --out data.csv
+python expertGesture.py collect --label open_palm --out data.csv
 
 # Latih Model
-python expert_gesture.py train --data data.csv --model model.pkl
+python expertGesture.py train --data data.csv --model model.pkl
 
 # Iferensi Real-time
-python expert_gesture.py infer --model model.pkl
+python expertGesture.py infer --model model.pkl
